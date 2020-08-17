@@ -1,0 +1,151 @@
+/***** BASE STYLES *****/
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left-border{
+    border-left: 2px solid #dedbdc;
+}
+
+.left-margin{
+    margin-left: 25px;
+}
+
+.right-margin{
+    margin-right: 25px;
+}
+
+/***** GRID *****/
+	
+.full-width {
+    width: 1204px;
+    overflow: auto;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    border-top: 2px solid #dedbdc;
+    border-bottom: 2px solid #dedbdc;
+    float: left;
+    height: 210px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    width: 400px;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 100px;
+}
+	
+header h1 { 
+    color: #77a466;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 45px 0px 35px 5px;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #000000;
+}
+
+nav {
+        float: right;
+        padding: 50px 0px 45px 0px;
+        width: 600px;
+    }
+
+ nav ul li{
+        display: inline-block;
+    }
+
+nav ul li a {
+        color: #77a466;
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding-left: 20px;
+    }
+
+/***** MAIN *****/
+
+/***** PICTURE *****/
+
+main img {
+    border-top: 5px solid #77a466;
+    border-bottom: 5px solid #77a466;
+    width: 1200px;
+    height: 285px;
+}
+
+/***** FULL WIDTH DIV *****/
+
+main h4 {
+    color: #77a466;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+main p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+/***** THIRD-WIDTH DIV *****/
+
+main h6 {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+main ul {
+    color: #77a466;
+    font-size: 16px;
+    font-weight: 400;
+    list-style-type: none;
+    margin-left: -35px;
+}
+
+main li {
+    margin-bottom: 30px;
+}
+
+/***** FOOTER *****/
+
+footer h5 {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+footer h5 span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: lowercase;
+}
+
+
+
