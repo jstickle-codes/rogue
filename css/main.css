@@ -23,6 +23,7 @@ body {
 .full-width {
     width: 1204px;
     overflow: auto;
+    margin: 0 auto;
 }
 
 .half-width {
@@ -51,7 +52,7 @@ header h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 700;
-    padding: 45px 0px 35px 5px;
+    padding: 45px 0px 35px 0;
     text-transform: uppercase;
 }
 
@@ -96,14 +97,12 @@ main h4 {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-left: 5px;
 }
 
 main p {
     color: #000000;
     font-size: 18px;
     font-weight: 400;
-    margin-left: 5px;
 }
 
 /***** THIRD-WIDTH DIV *****/
