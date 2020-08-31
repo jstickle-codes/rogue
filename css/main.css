@@ -69,6 +69,7 @@ nav ul {
     list-style-type: none;
     line-height: 5em;
     text-align: center;
+    width: 100%;
 }
 
 nav ul li a {
